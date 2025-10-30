@@ -8,7 +8,7 @@
 
 ### CIT300 - Practical Assignment 02
 
-This is a console-based Java application developed for the *CIT300 - Data Structures and Algorithms* module. The primary goal is to implement and compare the performance of three fundamental sorting algorithms. It measures and displays execution time and the number of operations (steps) for each algorithm, allowing for a clear performance comparison.
+This is a console-based Java application developed for the ***CIT300 - Data Structures and Algorithms*** module. The primary goal is to implement and compare the performance of three fundamental sorting algorithms. It measures and displays execution time and the number of operations (steps) for each algorithm, allowing for a clear performance comparison.
 
 ---
 
@@ -85,7 +85,7 @@ src/
 
 ## 🖥️ User Interface
 
-![User Interface]()
+![User Interface](./data-sorter-ui.png)
 
 ---
 
