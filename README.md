@@ -34,7 +34,7 @@ This is a console-based Java application developed for the *CIT300 - Data Struct
 
 ## 🛠️ Algorithms Implemented
 
-* **Bubble Sort** [cite: 6]()
+* [**Bubble Sort**](https://github.com/mihirchakma/DataSorterProject/blob/main/DataSorterProject/src/com/datasorter/algorithms/BubbleSort.java)
 * **Merge Sort** [cite: 6]()
 * **Quick Sort** [cite: 6]()
 
@@ -46,10 +46,10 @@ This project was developed by a team of four members, with roles distributed as 
 
 | Member | Task |
 | :--- | :--- |
-| **Member 1** | *22UG3-0108* - Implemented **Bubble Sort** with step count tracking[cite: 21]. |
-| **Member 2** | *22UG3-0912* - Implemented **Merge Sort** and integrated performance measurement[cite: 21]. |
-| **Member 3** | *22UG3-0570* - Implemented **Quick Sort** and integrated performance measurement[cite: 21]. |
-| **Member 4** | *22UG3-0235* - Developed data generation, performance comparison table, and the main user interface[cite: 21]. |
+| **Member 1** | *22UG3-0108* - Implemented **Bubble Sort** with step count tracking. |
+| **Member 2** | *22UG3-0912* - Implemented **Merge Sort** and integrated performance measurement. |
+| **Member 3** | *22UG3-0570* - Implemented **Quick Sort** and integrated performance measurement. |
+| **Member 4** | *22UG3-0235* - Developed data generation, performance comparison table, and the main user interface. |
 
 ---
 
