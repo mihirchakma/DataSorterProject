@@ -34,7 +34,7 @@ This is a console-based Java application developed for the *CIT300 - Data Struct
 
 ## 🛠️ Algorithms Implemented
 
-* [**Bubble Sort**](https://github.com/mihirchakma/DataSorterProject/blob/main/DataSorterProject/src/com/datasorter/algorithms/BubbleSort.java)
+* **Bubble Sort** [*Bubble Sort*](https://github.com/mihirchakma/DataSorterProject/blob/main/DataSorterProject/src/com/datasorter/algorithms/BubbleSort.java)
 * **Merge Sort** [cite: 6]()
 * **Quick Sort** [cite: 6]()
 
