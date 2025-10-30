@@ -44,19 +44,12 @@ This is a console-based Java application developed for the *CIT300 - Data Struct
 
 This project was developed by a team of four members, with roles distributed as follows:
 
-| Member   | Task   |
-| :----- | :----- |
-| **Member 1** - *22UG3-0108* | Implemented **Bubble Sort** with step count tracking. |
-| **Member 2** - *22UG3-0912* | Implemented **Merge Sort** and integrated performance measurement. |
-| **Member 3** - *22UG3-0570* | Implemented **Quick Sort** and integrated performance measurement. |
-| **Member 4** - *22UG3-0235* | Developed data generation, performance comparison table, and the main user interface. |
-
-| Member       | Task                                                                                |
-|--------------|-------------------------------------------------------------------------------------|
-| **Member 1** - 22UG3-0108   | Implemented Bubble Sort with step count tracking                     |
-| **Member 2** - 22UG3-0912   | Implemented Merge Sort and integrated performance measurement        |
-| **Member 3** - 22UG3-0570   | Implemented Quick Sort and integrated performance measurement        |
-| **Member 4** - 22UG3-0235   | Developed data generation, performance comparison table, and UI      |
+| Member       | Task                                                                                    |
+|--------------|-----------------------------------------------------------------------------------------|
+| **Member 1** - 22UG3-0108   | Implemented **Bubble Sort** with step count tracking.                    |
+| **Member 2** - 22UG3-0912   | Implemented **Merge Sort** and integrated performance measurement.       |
+| **Member 3** - 22UG3-0570   | Implemented **Quick Sort** and integrated performance measurement.       |
+| **Member 4** - 22UG3-0235   | Developed **data generation, performance comparison table, and UI**.     |
 
 ---
 
