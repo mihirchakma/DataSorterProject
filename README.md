@@ -129,3 +129,5 @@ src/
 1. Clone the repository.
 2. Run the project in the most common Java IDEs.
 3. The process is very similar for all of them: you just need to open the main project folder and then find and run the ***Main.java*** file.
+
+---
