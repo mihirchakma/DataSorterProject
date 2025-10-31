@@ -2,16 +2,20 @@ package com.datasorter.algorithms;
 
 import com.datasorter.model.SortResult;
 
-public class MergeSort {
+public class MergeSort 
+{
 
-    public static SortResult sort(int[] arr) {
+    public static SortResult sort(int[] arr) 
+    {
         long[] stepsCounter = {0};
         mergeSortRecursive(arr, 0, arr.length - 1, stepsCounter);
         return new SortResult(arr, stepsCounter[0]);
     }
 
-    private static void mergeSortRecursive(int[] arr, int left, int right, long[] stepsCounter) {
-        if (left < right) {
+    private static void mergeSortRecursive(int[] arr, int left, int right, long[] stepsCounter)
+     {
+        if (left < right) 
+        {
             int mid = (left + right) / 2;
             mergeSortRecursive(arr, left, mid, stepsCounter);
             mergeSortRecursive(arr, mid + 1, right, stepsCounter);
@@ -19,7 +23,8 @@ public class MergeSort {
         }
     }
 
-    private static void merge(int[] arr, int left, int mid, int right, long[] stepsCounter) {
+    private static void merge(int[] arr, int left, int mid, int right, long[] stepsCounter)
+     {
         int n1 = mid - left + 1;
         int n2 = right - mid;
 
@@ -31,25 +36,31 @@ public class MergeSort {
 
         int i = 0, j = 0;
         int k = left;
-        while (i < n1 && j < n2) {
+        while (i < n1 && j < n2) 
+        {
             stepsCounter[0]++;
-            if (L[i] <= R[j]) {
+            if (L[i] <= R[j]) 
+            {
                 arr[k] = L[i];
                 i++;
-            } else {
+            } 
+            else 
+            {
                 arr[k] = R[j];
                 j++;
             }
             k++;
         }
 
-        while (i < n1) {
+        while (i < n1) 
+        {
             arr[k] = L[i];
             i++;
             k++;
         }
 
-        while (j < n2) {
+        while (j < n2) 
+        {
             arr[k] = R[j];
             j++;
             k++;
