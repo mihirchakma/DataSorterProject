@@ -26,6 +26,3 @@ public class BubbleSort {
         return new SortResult(arr, steps);
     }
 }
-
-public class BubbleSort {
-}
