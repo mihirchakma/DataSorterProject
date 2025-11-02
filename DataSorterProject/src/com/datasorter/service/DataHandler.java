@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class DataHandler {
 
-    private List<Integer> dataset = new ArrayList<>();
-    private Scanner scanner;
+    private final List<Integer> dataset = new ArrayList<>();
+    private final Scanner scanner;
 
     public DataHandler(Scanner scanner) {
         this.scanner = scanner;
@@ -23,7 +23,7 @@ public class DataHandler {
         try {
             for (String part : parts) {
                 if (!part.isEmpty()) {
-                    dataset.add(Integer.parseInt(part));
+                    dataset.add(Integer.valueOf(part));
                 }
             }
             if (dataset.isEmpty()) {
