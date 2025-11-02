@@ -121,7 +121,7 @@ src/
 3.  **Run the Application:**
     (This runs the `Main` class from the `out` directory)
     ```bash
-    java -cp out cit300.datasorter.Main
+    java -cp out com.datasorter.Main
     ```
 
 **OR**

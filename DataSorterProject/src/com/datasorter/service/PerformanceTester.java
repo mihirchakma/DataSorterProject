@@ -19,17 +19,10 @@ public class PerformanceTester {
         long startTime = System.nanoTime();
 
         switch (algoName) {
-            case "Bubble Sort":
-                result = BubbleSort.sort(dataCopy);
-                break;
-            case "Merge Sort":
-                result = MergeSort.sort(dataCopy);
-                break;
-            case "Quick Sort":
-                result = QuickSort.sort(dataCopy);
-                break;
-            default:
-                throw new IllegalArgumentException("Unknown algorithm: " + algoName);
+            case "Bubble Sort" -> result = BubbleSort.sort(dataCopy);
+            case "Merge Sort" -> result = MergeSort.sort(dataCopy);
+            case "Quick Sort" -> result = QuickSort.sort(dataCopy);
+            default -> throw new IllegalArgumentException("Unknown algorithm: " + algoName);
         }
 
         long endTime = System.nanoTime();
